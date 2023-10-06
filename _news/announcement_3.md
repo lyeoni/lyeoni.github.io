@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I give a talk on the accepted paper at <a href="https://www.interspeech2023.org/">INTERSPEECH2023</a> with <a href="">slides</a> released here!
+I give a talk on the accepted paper at <a href="https://www.interspeech2023.org/">INTERSPEECH2023</a> with <a href="">slides</a> released here! :sparkles:
