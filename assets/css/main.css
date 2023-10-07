@@ -100,13 +100,13 @@ html[data-theme=dark] .repo-img-dark {
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #E65100;
+  --global-theme-color: #B509AC;
   --global-hover-color: #FF9800;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
   --global-distill-app-color: #828282;
-  --global-divider-color: #E65100;
+  --global-divider-color: #B509AC;
   --global-card-bg-color: #ffffff;
 }
 :root .fa-sun {
