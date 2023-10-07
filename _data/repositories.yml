@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - lyeoni
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - lyeoni/nlp-tutorial
+  - lyeoni/prenlp
+  - lyeoni/pretraining-for-language-understanding
+  - lyeoni/gpt-pytorch
