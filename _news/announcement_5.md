@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper “Synthetic Data Generation for Phrase Break Prediction with Large Language Model” appeared<br> at INTERSPEECH 2025 as an oral presentation. :sparkles:
+Our paper “<a href="https://www.isca-archive.org/interspeech_2025/lee25c_interspeech.html">Synthetic Data Generation for Phrase Break Prediction with Large Language Model</a>” got accepted<br> for <a href="https://www.interspeech2025.org/">INTERSPEECH 2025</a> to be held at Rotterdam, Netherlands !! :netherlands:

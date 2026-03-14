@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper “A Two-Step Approach for Data-Efficient French Pronunciation Learning” appeared<br> in the main conference of EMNLP 2024. :sparkles:
+Our paper “<a href="https://aclanthology.org/2024.emnlp-main.1064/">A Two-Step Approach for Data-Efficient French Pronunciation Learning</a>” got accepted<br> for <a href="https://2024.emnlp.org/">EMNLP 2024</a> to be held at Miami, USA !! :us:
