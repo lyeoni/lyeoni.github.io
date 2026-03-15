@@ -209,6 +209,10 @@ a,
 table.table a {
   color: var(--global-theme-color);
 }
+a:visited,
+table.table a:visited {
+  color: var(--global-theme-color);
+}
 a:hover,
 table.table a:hover {
   color: var(--global-theme-color);
