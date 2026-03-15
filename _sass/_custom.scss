@@ -186,8 +186,8 @@ footer.sticky-bottom {
         }
 
         >em {
-          color: #347eae;
-          border-bottom: 1px solid #347eae;
+          color: var(--global-text-color-light);
+          border-bottom: 1px solid var(--global-text-color-light);
           font-style: normal;
           font-weight: 700;
         }
