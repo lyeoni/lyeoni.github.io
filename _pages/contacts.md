@@ -18,7 +18,4 @@ You can reach me through the following contacts.
 
 **Address (Office)**
 
-NAVER Green Factory  
-6, Buljeong-ro  
-Seongnam 13561  
-Republic of Korea
+NAVER Green Factory, 6, Buljeong-ro, Seongnam 13561, Republic of Korea

@@ -2,5 +2,25 @@
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
+"INTERSPEECH":
+  url: https://www.isca-speech.org/iscaweb/index.php/conferences/interspeech
+  color: "#0f4c91"
+
+"EMNLP":
+  url: https://2024.emnlp.org/
+  color: "#0f4c91"
+
+"IEIE":
+  url: https://www.ieie.org/eng/
+  color: "#0f4c91"
+
+"CCS":
+  url: https://www.sigsac.org/ccs.html
+  color: "#0f4c91"
+
+"ACSAC":
+  url: https://www.acsac.org/
+  color: "#0f4c91"
+
 "PhysRev":
   url: https://journals.aps.org/
