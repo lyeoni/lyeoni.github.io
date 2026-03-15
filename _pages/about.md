@@ -2,7 +2,7 @@
 layout: about-custom
 title: about
 permalink: /
-subtitle: Research Scientist · NAVER Cloud AI · ex-CLOVA
+subtitle: Research Scientist & Tech Lead · NAVER Cloud
 
 profile:
   align: right

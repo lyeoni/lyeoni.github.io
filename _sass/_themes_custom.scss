@@ -12,6 +12,8 @@ $day-hover-text-color:       #954835 !default;
 $day-divider-color:          rgba(0, 0, 0, 0.1) !default;
 $day-card-color:             #ffffff !default;
 $day-distill-color:          #ddaca0 !default;
+$day-newsletter-bg-color:    rgba(0, 0, 0, 0.1) !default;
+$day-newsletter-text-color:  #3d3c42 !default;
 
 // Night theme colors
 $night-background-color:     #26282e !default;
@@ -23,6 +25,8 @@ $night-hover-text-color:     #f1ddd8 !default;
 $night-divider-color:        #424246 !default;
 $night-card-color:           $grey-900 !default;
 $night-distill-color:        #ffaea3 !default;
+$night-newsletter-bg-color:  #1c1c1d !default;
+$night-newsletter-text-color:#e8e8e8 !default;
 
 
 /*******************************************************************************
@@ -44,6 +48,8 @@ $night-distill-color:        #ffaea3 !default;
   --global-distill-app-color: #{$day-distill-color};
   --global-divider-color: #{$day-divider-color};
   --global-card-bg-color: #{$day-card-color};
+  --global-newsletter-bg-color: #{$day-newsletter-bg-color};
+  --global-newsletter-text-color: #{$day-newsletter-text-color};
 
   .fa-sun {
     display : none;
@@ -70,6 +76,8 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$night-distill-color};
   --global-divider-color: #{$night-divider-color};
   --global-card-bg-color: #{$night-card-color};
+  --global-newsletter-bg-color: #{$night-newsletter-bg-color};
+  --global-newsletter-text-color: #{$night-newsletter-text-color};
 
   .fa-sun {
     padding-left: 10px;
