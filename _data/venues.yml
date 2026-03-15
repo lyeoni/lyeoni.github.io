@@ -4,31 +4,31 @@
 
 "INTERSPEECH":
   url: https://www.isca-speech.org/iscaweb/index.php/conferences/interspeech
-  color: "#0f4c91"
+  color: "#347eae"
 
 "EMNLP":
   url: https://2024.emnlp.org/
-  color: "#0f4c91"
+  color: "#347eae"
 
 "IEIE":
   url: https://www.ieie.org/eng/
-  color: "#0f4c91"
+  color: "#347eae"
 
 "CCS":
   url: https://www.sigsac.org/ccs.html
-  color: "#0f4c91"
+  color: "#347eae"
 
 "ACSAC":
   url: https://www.acsac.org/
-  color: "#0f4c91"
+  color: "#347eae"
 
 "JKIISC":
   url: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002220202
-  color: "#0f4c91"
+  color: "#347eae"
 
 "CISC-W":
   url: https://seclab.yonsei.ac.kr/domestic-conferences
-  color: "#0f4c91"
+  color: "#347eae"
 
 "PhysRev":
   url: https://journals.aps.org/
