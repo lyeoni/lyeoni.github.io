@@ -123,6 +123,37 @@ footer.sticky-bottom {
   }
 }
 
+.contact-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-item {
+  display: grid;
+  grid-template-columns: 1.5rem 1fr;
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.contact-icon {
+  color: var(--global-theme-color);
+  line-height: 1.6;
+  text-align: center;
+}
+
+.contact-label {
+  margin-bottom: 0.1rem;
+}
+
+.contact-value {
+  color: var(--global-text-color-light);
+  line-height: 1.6;
+}
+
+.contact-value a {
+  color: inherit;
+}
+
 // Publications
 .bibsearch-controls {
   margin-bottom: 1.5rem;
@@ -174,7 +205,7 @@ footer.sticky-bottom {
   ol.bibliography {
     li {
       .author {
-        font-size: 0.96rem;
+        font-size: 0.95rem;
 
         a {
           border-bottom: 1px dashed var(--global-theme-color);
@@ -189,13 +220,15 @@ footer.sticky-bottom {
 
         >em {
           color: var(--global-theme-color);
+          border-bottom: none !important;
+          text-decoration: none !important;
           font-style: normal;
           font-weight: 700;
         }
       }
 
       .periodical {
-        font-size: 0.96rem;
+        font-size: 0.95rem;
       }
 
       .links {
