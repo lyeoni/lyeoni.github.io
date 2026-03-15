@@ -88,6 +88,30 @@ footer.sticky-bottom {
 }
 
 // Publications
+.bibsearch-controls {
+  margin-bottom: 1.5rem;
+}
+
+.bibsearch-form-input {
+  width: 100%;
+  max-width: 22rem;
+  padding: 0.55rem 0.8rem;
+  color: var(--global-text-color);
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.45rem;
+  outline: none;
+
+  &::placeholder {
+    color: var(--global-text-color-light);
+  }
+
+  &:focus {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--global-theme-color) 18%, transparent);
+  }
+}
+
 .publications {
   margin-top: 2rem;
 

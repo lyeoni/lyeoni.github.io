@@ -3,14 +3,26 @@
  ******************************************************************************/
 
 // Day theme colors
-$day-color-main:             $purple-color !default;                         // orange 900 material.io
-$day-color-hover:            #FF9800 !default;                         // orange 500 material.io
+$day-background-color:       #ffffff !default;
+$day-text-color:             #3d3c42 !default;
+$day-text-color-light:       #888691 !default;
+$day-color-main:             #ddaca0 !default;
+$day-color-hover:            #954835 !default;
+$day-hover-text-color:       #954835 !default;
+$day-divider-color:          rgba(0, 0, 0, 0.1) !default;
+$day-card-color:             #ffffff !default;
+$day-distill-color:          #ddaca0 !default;
 
 // Night theme colors
-$night-background-color:     $black-color !default;                         
-$night-color-main:           #2ce0a1 !default;
-$night-color-hover:          darken($night-color-main, 10%); 
-$night-card-color:           #212121 !default;
+$night-background-color:     #26282e !default;
+$night-text-color:           #ffffff !default;
+$night-text-color-light:     #f1ddd8 !default;
+$night-color-main:           #ffaea3 !default;
+$night-color-hover:          #f1ddd8 !default;
+$night-hover-text-color:     #f1ddd8 !default;
+$night-divider-color:        #424246 !default;
+$night-card-color:           $grey-900 !default;
+$night-distill-color:        #ffaea3 !default;
 
 
 /*******************************************************************************
@@ -18,18 +30,20 @@ $night-card-color:           #212121 !default;
  ******************************************************************************/
 
  :root {
-  --global-bg-color: #{$white-color};
+  color-scheme: light;
+  --global-bg-color: #{$day-background-color};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
+  --global-text-color: #{$day-text-color};
+  --global-text-color-light: #{$day-text-color-light};
   --global-theme-color: #{$day-color-main};
   --global-hover-color: #{$day-color-hover};
+  --global-hover-text-color: #{$day-hover-text-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: #{$day-color-main};
-  --global-card-bg-color: #{$white-color};
+  --global-distill-app-color: #{$day-distill-color};
+  --global-divider-color: #{$day-divider-color};
+  --global-card-bg-color: #{$day-card-color};
 
   .fa-sun {
     display : none;
@@ -42,17 +56,19 @@ $night-card-color:           #212121 !default;
 }
 
 html[data-theme='dark'] {
+  color-scheme: dark;
   --global-bg-color: #{$night-background-color};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
+  --global-text-color: #{$night-text-color};
+  --global-text-color-light: #{$night-text-color-light};
   --global-theme-color: #{$night-color-main};
   --global-hover-color: #{$night-color-hover};
+  --global-hover-text-color: #{$night-hover-text-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #{$night-color-main};
+  --global-distill-app-color: #{$night-distill-color};
+  --global-divider-color: #{$night-divider-color};
   --global-card-bg-color: #{$night-card-color};
 
   .fa-sun {
