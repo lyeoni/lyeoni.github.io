@@ -3,7 +3,7 @@ layout: page
 title: writing
 permalink: /writing/
 description: A collection of my writings.
-nav: true
+nav: false
 only_highlights: false
 display_categories: [features, short]
 nav_order: 7
