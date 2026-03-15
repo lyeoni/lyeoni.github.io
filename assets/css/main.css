@@ -1224,9 +1224,10 @@ footer.sticky-bottom {
   border-color: var(--global-hover-color);
 }
 .publications ol.bibliography li .pub-note {
-  font-size: small;
-  font-style: italic;
-  color: var(--global-theme-color);
+  font-size: 0.95em;
+  font-style: normal;
+  font-weight: 500;
+  color: #f92080;
 }
 
 .header-bar {
