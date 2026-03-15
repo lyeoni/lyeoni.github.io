@@ -1227,7 +1227,7 @@ footer.sticky-bottom {
   font-size: 0.95em;
   font-style: normal;
   font-weight: 500;
-  color: #f92080;
+  color: var(--global-theme-color);
 }
 
 .header-bar {
