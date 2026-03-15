@@ -41,6 +41,11 @@
     <link rel="canonical" href="https://lyeoni.github.io/publications/">
     <!-- Dark Mode -->
     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
 
   </head>
 
@@ -87,6 +92,14 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/writing/">writing</a>
               </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
             </ul>
           </div>
         </div>
@@ -114,6 +127,12 @@
 
           <article>
             <!-- _pages/publications.md -->
+<script defer src="/assets/js/bibsearch.js"></script>
+
+<p class="bibsearch-controls">
+  <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
+</p>
+
 <div class="publications">
   <h2 class="year">2025</h2>
   <ol class="bibliography"><li>

@@ -12,7 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>contacts | Hoyeon  Lee</title>
     <meta name="author" content="Hoyeon  Lee">
-    <meta name="description" content="Contact information.">
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
     <meta name="keywords" content="lyeoni">
 
 
@@ -40,6 +41,11 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="canonical" href="https://lyeoni.github.io/contacts/">
     <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
     
 
   </head>
@@ -87,6 +93,14 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/writing/">writing</a>
               </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
             </ul>
           </div>
         </div>
@@ -109,21 +123,21 @@
 
           <header class="post-header">
             <h1 class="post-title">contacts</h1>
-            <p class="post-description">Contact information.</p>
+            <p class="post-description"></p>
           </header>
 
           <article>
             <p>You can reach me through the following contacts.</p>
 
-<h3 id="email-office">Email (Office)</h3>
+<p><strong>Email (Office)</strong></p>
 
 <p><a href="mailto:yeon.lee@navercorp.com">yeon.lee@navercorp.com</a></p>
 
-<h3 id="email-personal">Email (Personal)</h3>
+<p><strong>Email (Personal)</strong></p>
 
 <p><a href="mailto:lyeoni.g@gmail.com">lyeoni.g@gmail.com</a></p>
 
-<h3 id="address-office">Address (Office)</h3>
+<p><strong>Address (Office)</strong></p>
 
 <p>NAVER Green Factory<br>
 6, Buljeong-ro<br>
