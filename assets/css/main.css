@@ -1211,7 +1211,8 @@ footer.sticky-bottom {
   color: var(--global-hover-color);
 }
 .publications ol.bibliography li .author > em {
-  border-bottom: 1px solid;
+  color: var(--global-text-color-light);
+  border-bottom: 1px solid var(--global-text-color-light);
   font-style: normal;
   font-weight: 700;
 }
@@ -1226,8 +1227,8 @@ footer.sticky-bottom {
 .publications ol.bibliography li .pub-note {
   font-size: 0.95em;
   font-style: normal;
-  font-weight: 500;
-  color: var(--global-theme-color);
+  font-weight: 400;
+  color: var(--global-theme-color) !important;
 }
 
 .header-bar {
