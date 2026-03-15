@@ -18,6 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Research Scientist of the Voice&Avatar Team at NAVER Cloud AI.
+I am a Tech Lead and Research Engineer of the Voice team at NAVER Cloud AI.
 
-I do research in Natural Language Processing (NLP), and NLP for Speech Synthesis. Lately, my focus has been on the learning models for multilingual language understanding, and text-processing front-end for following Text-to-Speech (TTS) services. I have developed multilingual large-scale language models (LLMs), including Indo-European Languages and Korean, and deployed them to AI products that are actively utilized in [NAVER](https://www.naver.com/)’s services. Furthermore, these findings have been shared at [top-tier ML conferences](/publications).
+I do research in Natural Language Processing (NLP), and NLP for Speech Synthesis. Lately, my focus has been on the learning models for multilingual language understanding, and text-preprocessing for following Text-to-Speech (TTS) services. I have developed multilingual large-scale language models (LLMs), including Indo-European Languages and Korean, and deployed them to AI products that are actively utilized in [NAVER](https://www.naver.com/)’s services. Furthermore, these findings have been shared at [top-tier ML conferences](/publications), including [EMNLP](https://2024.emnlp.org/) and [INTERSPEECH](https://www.isca-speech.org/iscaweb/index.php/conferences/interspeech).

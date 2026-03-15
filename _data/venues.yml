@@ -22,5 +22,13 @@
   url: https://www.acsac.org/
   color: "#0f4c91"
 
+"JKIISC":
+  url: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002220202
+  color: "#0f4c91"
+
+"CISC-W":
+  url: https://seclab.yonsei.ac.kr/domestic-conferences
+  color: "#0f4c91"
+
 "PhysRev":
   url: https://journals.aps.org/

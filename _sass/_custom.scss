@@ -205,9 +205,10 @@ footer.sticky-bottom {
       }
 
       .pub-note {
-        font-size: small;
-        font-style: italic;
-        color: var(--global-theme-color);
+        font-size: 0.95em;
+        font-style: normal;
+        font-weight: 500;
+        color: $pink-color;
       }
     }
   }
