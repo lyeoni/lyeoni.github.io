@@ -9,8 +9,8 @@ profile:
   image: 1661500211046_square.jpg
   image_circular: true # crops the image to make it circular
   address: >
-    <p>NAVER 1784, 95, Jeongjail-ro, Bundang-gu<br>
-    Seongnam-si, Gyeonggi-do, Republic of Korea</p>
+    <p>NAVER Green Factory, 6, Buljeong-ro,<br>
+    Seongnam, 13561, Republic of Korea</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
