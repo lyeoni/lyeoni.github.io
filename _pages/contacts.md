@@ -2,11 +2,10 @@
 layout: page
 permalink: /contacts/
 title: contacts
+description: You can reach me through the following contacts.
 nav: true
 nav_order: 5
 ---
-
-You can reach me through the following contacts.
 
 **Email (Office)**
 
