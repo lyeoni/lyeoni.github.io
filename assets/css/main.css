@@ -1201,6 +1201,9 @@ footer.sticky-bottom {
 .publications {
   margin-top: 2rem;
 }
+.publications ol.bibliography li .author {
+  font-size: 0.96rem;
+}
 .publications ol.bibliography li .author a {
   border-bottom: 1px dashed var(--global-theme-color);
   color: var(--global-theme-color);
@@ -1212,9 +1215,11 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .author > em {
   color: var(--global-theme-color);
-  border-bottom: 1px solid var(--global-theme-color);
   font-style: normal;
   font-weight: 700;
+}
+.publications ol.bibliography li .periodical {
+  font-size: 0.96rem;
 }
 .publications ol.bibliography li .links a.btn {
   color: var(--global-theme-color);
