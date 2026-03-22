@@ -68,6 +68,12 @@ footer.sticky-bottom {
     img {
       width: 25vw;
     }
+
+    img.rounded-circle {
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      object-position: center 18%;
+    }
   }
 
   .desc {
