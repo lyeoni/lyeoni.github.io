@@ -6,7 +6,7 @@ subtitle: Research Scientist & Tech Lead · NAVER Cloud
 
 profile:
   align: right
-  image: 1661500211046_square.jpg
+  image: ce7953f7c33f473f.jpg
   image_circular: true # crops the image to make it circular
   address: >
     <p>NAVER Green Factory, 6, Buljeong-ro,<br>
