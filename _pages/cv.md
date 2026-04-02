@@ -2,7 +2,8 @@
 layout: cv
 permalink: /cv/
 title: cv
-nav: false
+description: Curriculum Vitae
+redirect: https://naver.me/FYqrp6WP
+nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
 ---
