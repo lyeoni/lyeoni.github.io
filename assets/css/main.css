@@ -1275,6 +1275,12 @@ footer.sticky-bottom {
   color: var(--global-text-color-light) !important;
 }
 
+@media (max-width: 575.98px) {
+  .publications h2.year {
+    margin-bottom: 0.75rem;
+    text-align: left;
+  }
+}
 .header-bar {
   border-bottom: none;
   padding-top: 1rem;
