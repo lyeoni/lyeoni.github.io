@@ -105,6 +105,9 @@
         {%- endif -%}
 
         </div>
+        {%- if entry.equal_contribution %}
+        <div class="equal-contribution">{{ entry.equal_contribution }}</div>
+        {%- endif %}
 
         <!-- Journal/Book title and date -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
