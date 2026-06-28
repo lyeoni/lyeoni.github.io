@@ -1260,6 +1260,12 @@ footer.sticky-bottom {
 .publications ol.bibliography li .periodical {
   font-size: 0.95rem;
 }
+.publications ol.bibliography li .equal-contribution {
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  line-height: 1.35;
+  margin-top: 0.1rem;
+}
 .publications ol.bibliography li .links a.btn {
   color: var(--global-theme-color);
   border: 1px solid var(--global-theme-color);
