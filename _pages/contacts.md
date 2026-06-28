@@ -2,7 +2,8 @@
 layout: page
 permalink: /contacts/
 title: contacts
-description: You can reach me through the following contacts.
+# description: Best way to reach me is via email.
+# description: You can reach me through the following contacts.
 nav: true
 nav_order: 5
 ---
