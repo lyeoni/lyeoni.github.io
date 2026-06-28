@@ -23,3 +23,5 @@ I am a Senior Research Scientist and Tech Lead in the Voice team at NAVER Cloud.
 My research focuses on Natural Language Processing (NLP) and speech-oriented language processing for Text-to-Speech (TTS), with an emphasis on large language models (LLMs). Recently, I have been working on multilingual and cross-lingual representation learning, as well as LLM-driven methods for data generation and evaluation in speech and TTS pipelines, with a focus on scalable and robust modeling for real-world deployment.
 
 I have developed multilingual large-scale language models covering a wide range of languages, including Korean, French, and other cross-lingual settings, and deployed them in AI products actively used across [NAVER](https://www.naver.com/)’s services. Furthermore, my work has been presented at [top-tier conferences](/publications), including [EMNLP](https://2024.emnlp.org/), [INTERSPEECH](https://www.isca-speech.org/iscaweb/index.php/conferences/interspeech), and other leading venues.
+
+If you are interested in collaboration or would like to get in touch, please feel free to [contact me](/contacts/).
