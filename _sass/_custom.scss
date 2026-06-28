@@ -209,6 +209,10 @@ footer.sticky-bottom {
 .publications {
   margin-top: 2rem;
 
+  h2.year {
+    color: color-mix(in srgb, var(--global-divider-color), var(--global-text-color) 20%);
+  }
+
   ol.bibliography {
     li {
       .author {
