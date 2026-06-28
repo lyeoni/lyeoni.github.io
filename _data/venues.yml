@@ -8,27 +8,27 @@
 
 "EMNLP":
   url: https://2024.emnlp.org/
-  color: "#347eae"
+  color: "#c33d3d"
 
 "IEIE":
   url: https://www.ieie.org/eng/
-  color: "#347eae"
+  color: "#6f747b"
 
 "CCS":
   url: https://www.sigsac.org/ccs.html
-  color: "#347eae"
+  color: "#5a4fcf"
 
 "ACSAC":
   url: https://www.acsac.org/
-  color: "#347eae"
+  color: "#d06a2f"
 
 "JKIISC":
   url: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002220202
-  color: "#347eae"
+  color: "#6f747b"
 
 "CISC-W":
   url: https://seclab.yonsei.ac.kr/domestic-conferences
-  color: "#347eae"
+  color: "#6f747b"
 
 "PhysRev":
   url: https://journals.aps.org/
