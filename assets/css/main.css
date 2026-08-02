@@ -10,14 +10,14 @@
   --global-bg-color: #ffffff;
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #3D3C42;
-  --global-text-color-light: rgb(135.8333333333, 134, 145);
-  --global-theme-color: rgb(220.7924528302, 171.9245283019, 159.7075471698);
-  --global-hover-color: rgb(148.641509434, 72.4150943396, 53.358490566);
-  --global-hover-text-color: rgb(148.641509434, 72.4150943396, 53.358490566);
+  --global-text-color-light: rgb(53.2679738562%, 52.5490196078%, 56.862745098%);
+  --global-theme-color: rgb(86.5852756197%, 67.4213836478%, 62.6304106548%);
+  --global-hover-color: rgb(58.2907880133%, 28.3980762116%, 20.9248982612%);
+  --global-hover-text-color: rgb(58.2907880133%, 28.3980762116%, 20.9248982612%);
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
-  --global-distill-app-color: rgb(220.7924528302, 171.9245283019, 159.7075471698);
+  --global-distill-app-color: rgb(86.5852756197%, 67.4213836478%, 62.6304106548%);
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #ffffff;
   --global-highlight-color: #F1DDD8;
@@ -26,18 +26,18 @@
   --global-back-to-top-text-color: #352F33;
   --global-newsletter-bg-color: rgba(0, 0, 0, 0.1);
   --global-newsletter-text-color: #3D3C42;
-  --global-tip-block: rgb(220.7924528302, 171.9245283019, 159.7075471698);
+  --global-tip-block: rgb(86.5852756197%, 67.4213836478%, 62.6304106548%);
   --global-tip-block-bg: #ffffff;
   --global-tip-block-text: #3D3C42;
-  --global-tip-block-title: rgb(148.641509434, 72.4150943396, 53.358490566);
-  --global-warning-block: rgb(220.7924528302, 171.9245283019, 159.7075471698);
+  --global-tip-block-title: rgb(58.2907880133%, 28.3980762116%, 20.9248982612%);
+  --global-warning-block: rgb(86.5852756197%, 67.4213836478%, 62.6304106548%);
   --global-warning-block-bg: #ffffff;
-  --global-warning-block-text: rgb(135.8333333333, 134, 145);
-  --global-warning-block-title: rgb(148.641509434, 72.4150943396, 53.358490566);
-  --global-danger-block: rgb(220.7924528302, 171.9245283019, 159.7075471698);
+  --global-warning-block-text: rgb(53.2679738562%, 52.5490196078%, 56.862745098%);
+  --global-warning-block-title: rgb(58.2907880133%, 28.3980762116%, 20.9248982612%);
+  --global-danger-block: rgb(86.5852756197%, 67.4213836478%, 62.6304106548%);
   --global-danger-block-bg: #ffffff;
   --global-danger-block-text: #3D3C42;
-  --global-danger-block-title: rgb(148.641509434, 72.4150943396, 53.358490566);
+  --global-danger-block-title: rgb(58.2907880133%, 28.3980762116%, 20.9248982612%);
 }
 :root .fa-sun {
   display: none;
