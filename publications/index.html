@@ -123,13 +123,22 @@
             <!-- _pages/publications.md -->
 <script defer src="/assets/js/bibsearch.js"></script>
 
-<p class="bibsearch-controls">
-  <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
-</p>
+<div id="publications-top" class="publications-toolbar">
+  <p class="bibsearch-controls">
+    <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
+  </p>
+
+  <nav class="publication-jump-links" aria-label="Publication sections">
+    <a href="#publications-top">All</a>
+    <a href="#international">International</a>
+    <a href="#domestic">Domestic</a>
+  </nav>
+</div>
 
 <div class="publications">
-  <h2 class="year">2026</h2>
-  <ol class="bibliography">
+  <section id="international" class="publication-section">
+    <h2 class="publication-section-title">International</h2>
+    <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -152,7 +161,6 @@
         <div class="periodical">
           <em>EMNLP</em>, 2026
         </div>
-        <div class="summary">Introduces UGTPhon, a multilingual benchmark and taxonomy for user-generated text, alongside a compositional G2P approach for irregular spellings, abbreviations, and code-mixed forms.</div>
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -193,7 +201,6 @@
         <div class="periodical">
           <em>INTERSPEECH</em>, 2026
         </div>
-        <div class="summary">Proposes LLM-based Multi-Reference Evaluation to generate valid phrase-break alternatives and assess annotations more scalably while aligning better with human judgment.</div>
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -212,10 +219,7 @@
         </div>
       </div>
 </li>
-</ol>
-
-  <h2 class="year">2025</h2>
-  <ol class="bibliography"><li>
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#3d9fd0"><a href="https://interspeech2026.org/" rel="external nofollow noopener" target="_blank">INTERSPEECH</a></abbr></div>
@@ -236,7 +240,6 @@
         <div class="periodical">
           <em>INTERSPEECH</em>, 2025 <span class="pub-note">(Oral)</span>
         </div>
-        <div class="summary">Uses LLM-generated synthetic annotations to reduce the cost of phrase-break data collection and improve multilingual phrase-break prediction for TTS.</div>
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -254,10 +257,8 @@
           
         </div>
       </div>
-</li></ol>
-
-  <h2 class="year">2024</h2>
-  <ol class="bibliography"><li>
+</li>
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#c33d3d"><a href="https://2026.emnlp.org/" rel="external nofollow noopener" target="_blank">EMNLP</a></abbr></div>
@@ -278,7 +279,6 @@
         <div class="periodical">
           <em>EMNLP</em>, 2024 <span class="pub-note">(Main)</span>
         </div>
-        <div class="summary">Combines grapheme-to-phoneme conversion with post-lexical processing to learn French pronunciation effectively from limited sentence-level labeled data.</div>
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -296,10 +296,7 @@
           
         </div>
       </div>
-</li></ol>
-
-  <h2 class="year">2023</h2>
-  <ol class="bibliography">
+</li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -321,7 +318,6 @@
         <div class="periodical">
           <em>INTERSPEECH</em>, 2023 <span class="pub-note">(Oral)</span>
         </div>
-        <div class="summary">Applies zero-shot and few-shot cross-lingual transfer with a multilingual language model to improve phrase-break prediction for low-resource languages.</div>
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -343,48 +339,6 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#6f747b"><a href="https://www.ieie.org/eng/" rel="external nofollow noopener" target="_blank">IEIE</a></abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="hoyeon2023ieie" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Lightweight Grapheme-to-Phoneme Conversion Based on Knowledge Distilled BERT</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <strong class="author-self">Hoyeon Lee</strong>, Jong-Hwan Kim, and Jae-Min Kim</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Summer Annual Conference of IEIE</em>, 2023
-        </div>
-        <div class="summary">Compresses a BERT-based grapheme-to-phoneme model through knowledge distillation to reduce computational cost while retaining pronunciation accuracy.</div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-          
-            <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11522394" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-          
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          
-        </div>
-      </div>
-</li>
-</ol>
-
-  <h2 class="year">2022</h2>
-  <ol class="bibliography"><li>
-<!-- _layouts/bib.html -->
-      <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#3d9fd0"><a href="https://interspeech2026.org/" rel="external nofollow noopener" target="_blank">INTERSPEECH</a></abbr></div>
 
         <!-- Entry bib key -->
@@ -403,7 +357,6 @@
         <div class="periodical">
           <em>INTERSPEECH</em>, 2022 <span class="pub-note">(Poster)</span>
         </div>
-        <div class="summary">Uses GPT-3 to predict emotion class and intensity directly from text, enabling paragraph-level emotional speech synthesis without auxiliary emotion inputs.</div>
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -421,13 +374,7 @@
           
         </div>
       </div>
-</li></ol>
-
-  <h2 class="year">~2021</h2>
-  <ol class="bibliography"></ol>
-
-  <h2 class="year">2017</h2>
-  <ol class="bibliography">
+</li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -449,7 +396,6 @@
         <div class="periodical">
           <em>33rd Annual Computer Security Applications Conference</em>, 2017 <span class="pub-note">(Oral)</span>
         </div>
-        <div class="summary">Demonstrates the fingerprint SCRAP attack, reconstructing enrolled fingerprints from everyday smartphone smudges and measuring the gap between actual risk and user perception.</div>
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -488,12 +434,55 @@
         <div class="periodical">
           <em>ACM Conference on Computer and Communications Security (CCS)</em>, 2017 <span class="pub-note">(Poster)</span>
         </div>
-        <div class="summary">Validates realistic fingerprint spoofing from reconstructed smartphone smudges and evaluates mitigation methods and users’ perception of the attack.</div>
 
           <!-- Links/Buttons -->
           <div class="links">
           
             <a href="https://doi.org/10.1145/3133956.3138832" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+          
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+</ol>
+  </section>
+
+  <section id="domestic" class="publication-section">
+    <h2 class="publication-section-title">Domestic</h2>
+    <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge" style="background-color:#6f747b"><a href="https://www.ieie.org/eng/" rel="external nofollow noopener" target="_blank">IEIE</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="hoyeon2023ieie" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Lightweight Grapheme-to-Phoneme Conversion Based on Knowledge Distilled BERT</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong class="author-self">Hoyeon Lee</strong>, Jong-Hwan Kim, and Jae-Min Kim</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Summer Annual Conference of IEIE</em>, 2023
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          
+            <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11522394" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
           
           </div>
           
@@ -527,7 +516,6 @@
         <div class="periodical">
           <em>Korea Institute of Information Security &amp; Cryptology</em>, Apr 2017
         </div>
-        <div class="summary">Reconstructs damaged fingerprint images from smartphone smudges and experimentally demonstrates the resulting vulnerability of fingerprint authentication systems.</div>
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -545,10 +533,6 @@
         </div>
       </div>
 </li>
-</ol>
-
-  <h2 class="year">2016</h2>
-  <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -570,7 +554,6 @@
         <div class="periodical">
           <em>Conference on Information Security and Cryptography 2016 (CISC-W’ 16)</em>, Dec 2016
         </div>
-        <div class="summary">Explores behavior-based smartphone authentication by combining application-usage patterns and touch dynamics as machine-learning signals for user verification.</div>
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -608,7 +591,6 @@
         <div class="periodical">
           <em>Conference on Information Security and Cryptography 2016 (CISC-W’ 16)</em>, Dec 2016
         </div>
-        <div class="summary">Investigates reconstructing fingerprint images from residual smartphone smudges as a foundation for evaluating fingerprint-smudge attacks.</div>
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -626,8 +608,7 @@
       </div>
 </li>
 </ol>
-
-
+  </section>
 </div>
 
           </article>
@@ -637,12 +618,8 @@
       
     </div>
 
-    <!-- Footer -->    <footer class="sticky-bottom mt-5">
-      <div class="container">
-        © Copyright 2026 Hoyeon  Lee. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="external nofollow noopener">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+    <!-- Footer -->
 
-      </div>
-    </footer>
 
     <!-- JavaScripts -->
     <!-- jQuery -->

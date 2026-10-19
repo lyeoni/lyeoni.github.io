@@ -1198,8 +1198,18 @@ footer.sticky-bottom {
   color: inherit;
 }
 
+.publications-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  scroll-margin-top: 5.5rem;
+}
+
 .bibsearch-controls {
-  margin-bottom: 1.5rem;
+  flex: 1;
+  margin: 0;
 }
 
 .bibsearch-form-input {
@@ -1225,6 +1235,21 @@ footer.sticky-bottom {
   box-shadow: none;
 }
 
+.publication-jump-links {
+  display: flex;
+  flex-shrink: 0;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+.publication-jump-links a {
+  color: var(--global-text-color-light);
+  text-decoration: none;
+}
+.publication-jump-links a:hover, .publication-jump-links a:focus {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
 .news table th {
   white-space: nowrap;
   width: 1%;
@@ -1236,10 +1261,20 @@ footer.sticky-bottom {
 }
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 0;
 }
-.publications h2.year {
-  color: color-mix(in srgb, var(--global-divider-color), var(--global-text-color) 28%);
+.publications .publication-section {
+  scroll-margin-top: 5.5rem;
+}
+.publications .publication-section + .publication-section {
+  margin-top: 3rem;
+}
+.publications .publication-section-title {
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 1.45rem;
+  font-weight: 500;
 }
 .publications ol.bibliography li .author {
   font-size: 0.95rem;
@@ -1259,12 +1294,6 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .periodical {
   font-size: 0.95rem;
-}
-.publications ol.bibliography li .summary {
-  color: var(--global-text-color-light);
-  font-size: 0.95rem;
-  line-height: 1.45;
-  margin: 0.35rem 0 0.55rem;
 }
 .publications ol.bibliography li .equal-contribution {
   color: var(--global-text-color-light);
@@ -1288,9 +1317,12 @@ footer.sticky-bottom {
 }
 
 @media (max-width: 575.98px) {
-  .publications h2.year {
-    margin-bottom: 0.75rem;
-    text-align: left;
+  .publications-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .publication-jump-links {
+    align-self: flex-end;
   }
 }
 .header-bar {
