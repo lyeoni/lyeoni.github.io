@@ -37,7 +37,6 @@ nav_order: 1
 
 <div class="publications">
   <section id="international" class="publication-section">
-    <h2 class="publication-section-title">International</h2>
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[category=international]* %}
   </section>
 
