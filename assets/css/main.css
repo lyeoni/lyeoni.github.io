@@ -1255,21 +1255,6 @@ footer.sticky-bottom {
   gap: 0.45rem;
 }
 
-.publication-jump-links {
-  display: flex;
-  flex-shrink: 0;
-  gap: 1rem;
-  font-size: 0.9rem;
-}
-.publication-jump-links a {
-  color: var(--global-text-color-light);
-  text-decoration: none;
-}
-.publication-jump-links a:hover, .publication-jump-links a:focus {
-  color: var(--global-theme-color);
-  text-decoration: none;
-}
-
 .publication-legend {
   display: flex;
   gap: 0.9rem;
@@ -1335,25 +1320,37 @@ footer.sticky-bottom {
   color: #3d665e;
 }
 .publications ol.bibliography li .author {
-  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 .publications ol.bibliography li .author a {
-  border-bottom: 1px dashed var(--global-theme-color);
-  color: var(--global-theme-color);
+  border-bottom: 1px dashed currentColor;
+  color: inherit;
 }
 .publications ol.bibliography li .author a:hover {
+  border-bottom-color: var(--global-theme-color);
   border-bottom-style: solid;
+  color: var(--global-theme-color);
   text-decoration: none;
-  color: var(--global-hover-color);
 }
 .publications ol.bibliography li .author > strong.author-self {
   color: var(--global-theme-color);
-  font-weight: 700;
+  font-weight: 600;
 }
 .publications ol.bibliography li .periodical {
+  color: var(--global-text-color);
   font-size: 0.95rem;
+  font-weight: 500;
   line-height: 1.45;
+}
+.publications ol.bibliography li .periodical em {
+  font-weight: 600;
+}
+.publications ol.bibliography li .publication-year {
+  color: var(--global-theme-color);
+  font-style: normal;
+  font-weight: 700;
 }
 .publications ol.bibliography li .links a.btn {
   color: var(--global-theme-color);
@@ -1373,6 +1370,9 @@ footer.sticky-bottom {
 html[data-theme=dark] #domestic .publication-section-title {
   color: #c8c9cc;
 }
+html[data-theme=dark] .publications ol.bibliography li .author {
+  color: #c8c9cc;
+}
 html[data-theme=dark] .publications ol.bibliography li .abbr abbr.badge-domestic {
   background-color: #334844;
   border-color: #58756f;
@@ -1385,9 +1385,6 @@ html[data-theme=dark] .publications ol.bibliography li .abbr abbr.badge-domestic
   .publications-toolbar {
     align-items: stretch;
     flex-direction: column;
-  }
-  .publication-jump-links {
-    align-self: flex-end;
   }
   .publication-legend {
     flex-wrap: wrap;
