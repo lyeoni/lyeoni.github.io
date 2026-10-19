@@ -221,24 +221,6 @@ footer.sticky-bottom {
   gap: 0.45rem;
 }
 
-.publication-jump-links {
-  display: flex;
-  flex-shrink: 0;
-  gap: 1rem;
-  font-size: 0.9rem;
-
-  a {
-    color: var(--global-text-color-light);
-    text-decoration: none;
-
-    &:hover,
-    &:focus {
-      color: var(--global-theme-color);
-      text-decoration: none;
-    }
-  }
-}
-
 .publication-legend {
   display: flex;
   gap: 0.9rem;
@@ -321,29 +303,43 @@ footer.sticky-bottom {
       }
 
       .author {
-        font-size: 0.95rem;
+        color: var(--global-text-color-light);
+        font-size: 0.9rem;
         line-height: 1.5;
 
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
-          color: var(--global-theme-color);
+          border-bottom: 1px dashed currentColor;
+          color: inherit;
 
           &:hover {
+            border-bottom-color: var(--global-theme-color);
             border-bottom-style: solid;
+            color: var(--global-theme-color);
             text-decoration: none;
-            color: var(--global-hover-color);
           }
         }
 
         >strong.author-self {
           color: var(--global-theme-color);
-          font-weight: 700;
+          font-weight: 600;
         }
       }
 
       .periodical {
+        color: var(--global-text-color);
         font-size: 0.95rem;
+        font-weight: 500;
         line-height: 1.45;
+
+        em {
+          font-weight: 600;
+        }
+      }
+
+      .publication-year {
+        color: var(--global-theme-color);
+        font-style: normal;
+        font-weight: 700;
       }
 
       .links {
@@ -373,6 +369,10 @@ html[data-theme='dark'] {
     color: #c8c9cc;
   }
 
+  .publications ol.bibliography li .author {
+    color: #c8c9cc;
+  }
+
   .publications ol.bibliography li .abbr abbr.badge-domestic {
     background-color: #334844;
     border-color: #58756f;
@@ -387,10 +387,6 @@ html[data-theme='dark'] {
   .publications-toolbar {
     align-items: stretch;
     flex-direction: column;
-  }
-
-  .publication-jump-links {
-    align-self: flex-end;
   }
 
   .publication-legend {

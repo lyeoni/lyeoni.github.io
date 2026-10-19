@@ -22,12 +22,6 @@ nav_order: 1
   </p>
 
   <div class="publications-toolbar-meta">
-    <nav class="publication-jump-links" aria-label="Publication sections">
-      <a href="#publications-top">All</a>
-      <a href="#international">International</a>
-      <a href="#domestic">Domestic</a>
-    </nav>
-
     <p class="publication-legend">
       <span><sup>*</sup> Equal contribution</span>
       <span><sup>†</sup> Corresponding authors</span>
