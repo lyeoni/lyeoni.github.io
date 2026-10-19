@@ -229,17 +229,21 @@ footer.sticky-bottom {
           }
         }
 
-        >em {
+        >strong.author-self {
           color: var(--global-theme-color);
-          border-bottom: none !important;
-          text-decoration: none !important;
-          font-style: normal;
           font-weight: 700;
         }
       }
 
       .periodical {
         font-size: 0.95rem;
+      }
+
+      .summary {
+        color: var(--global-text-color-light);
+        font-size: 0.95rem;
+        line-height: 1.45;
+        margin: 0.35rem 0 0.55rem;
       }
 
       .equal-contribution {
