@@ -1253,15 +1253,18 @@ footer.sticky-bottom {
   text-decoration: none;
   color: var(--global-hover-color);
 }
-.publications ol.bibliography li .author > em {
+.publications ol.bibliography li .author > strong.author-self {
   color: var(--global-theme-color);
-  border-bottom: none !important;
-  text-decoration: none !important;
-  font-style: normal;
   font-weight: 700;
 }
 .publications ol.bibliography li .periodical {
   font-size: 0.95rem;
+}
+.publications ol.bibliography li .summary {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 0.35rem 0 0.55rem;
 }
 .publications ol.bibliography li .equal-contribution {
   color: var(--global-text-color-light);
