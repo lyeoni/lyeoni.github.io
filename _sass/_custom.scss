@@ -5,6 +5,19 @@ html {
   scroll-behavior: smooth;
 }
 
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 *:hover {
   transition: all 0.3s ease;
 }
@@ -164,7 +177,7 @@ footer.sticky-bottom {
 // Publications
 .publications-toolbar {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: 1.75rem;
@@ -201,6 +214,13 @@ footer.sticky-bottom {
   }
 }
 
+.publications-toolbar-meta {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
 .publication-jump-links {
   display: flex;
   flex-shrink: 0;
@@ -216,6 +236,21 @@ footer.sticky-bottom {
       color: var(--global-theme-color);
       text-decoration: none;
     }
+  }
+}
+
+.publication-legend {
+  display: flex;
+  gap: 0.9rem;
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.8rem;
+  line-height: 1.35;
+
+  sup {
+    color: var(--global-theme-color);
+    font-size: 0.78em;
+    font-weight: 700;
   }
 }
 
@@ -246,17 +281,35 @@ footer.sticky-bottom {
   }
 
   .publication-section-title {
-    margin: 0 0 1.25rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--global-divider-color);
-    font-size: 1.45rem;
-    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 0 0 1.4rem;
+    color: var(--global-theme-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+
+    &::after {
+      height: 1px;
+      flex: 1;
+      background: var(--global-divider-color);
+      content: "";
+    }
   }
 
   ol.bibliography {
     li {
+      .title {
+        margin-bottom: 0.2rem;
+        font-size: 1.05rem;
+        font-weight: 700;
+        line-height: 1.35;
+      }
+
       .author {
         font-size: 0.95rem;
+        line-height: 1.5;
 
         a {
           border-bottom: 1px dashed var(--global-theme-color);
@@ -277,13 +330,7 @@ footer.sticky-bottom {
 
       .periodical {
         font-size: 0.95rem;
-      }
-
-      .equal-contribution {
-        color: var(--global-text-color-light);
-        font-size: 0.82rem;
-        line-height: 1.35;
-        margin-top: 0.1rem;
+        line-height: 1.45;
       }
 
       .links {
@@ -316,6 +363,11 @@ footer.sticky-bottom {
 
   .publication-jump-links {
     align-self: flex-end;
+  }
+
+  .publication-legend {
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 }
 

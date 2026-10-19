@@ -27,7 +27,7 @@
         </div>
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-8">
+        <div id="{{entry.key}}" class="col-sm-10">
         <!-- Title -->
         <div class="title">{{entry.title}}</div>
         <!-- Author -->
@@ -62,12 +62,12 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-            <strong class="author-self">{{author.first}} {{author.last}}</strong>
+            <strong class="author-self">{{author.first}} {{author_last_name}}{%- if author.last contains "*" -%}<sup>*</sup>{%- endif -%}{%- if author.last contains "†" -%}<sup>†</sup>{%- endif -%}</strong>
           {%- else -%}
             {%- if coauthor_url -%}
-              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+              <a href="{{coauthor_url}}">{{author.first}} {{author_last_name}}{%- if author.last contains "*" -%}<sup>*</sup>{%- endif -%}{%- if author.last contains "†" -%}<sup>†</sup>{%- endif -%}</a>
             {%- else -%}
-              {{author.first}} {{author.last}}
+              {{author.first}} {{author_last_name}}{%- if author.last contains "*" -%}<sup>*</sup>{%- endif -%}{%- if author.last contains "†" -%}<sup>†</sup>{%- endif -%}
             {%- endif -%}
           {%- endif -%}
         {%- endfor -%}
@@ -105,9 +105,6 @@
         {%- endif -%}
 
         </div>
-        {%- if entry.equal_contribution %}
-        <div class="equal-contribution">{{ entry.equal_contribution }}</div>
-        {%- endif %}
 
         <!-- Journal/Book title and date -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
