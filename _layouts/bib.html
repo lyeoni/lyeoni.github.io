@@ -124,7 +124,7 @@
         {%- if entry.month -%}
           {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
         {%- endif -%}
-        {%- capture venue_label -%}{%- if entry.venue_label -%} ({{ entry.venue_label }}){%- endif -%}{%- endcapture -%}
+        {%- capture venue_label -%}{%- if entry.venue_label -%}{{ " " }}({{ entry.venue_label }}){%- endif -%}{%- endcapture -%}
         {%- if entry.year -%}
           {%- capture entryyear -%}{{ " " }}<span class="publication-year">{{ entry.year }}</span>{%- endcapture -%}
         {%- endif -%}
