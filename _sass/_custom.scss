@@ -237,6 +237,16 @@ footer.sticky-bottom {
 }
 
 .news {
+  strong > a {
+    color: inherit;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+    }
+  }
+
   table {
     th {
       white-space: nowrap;
