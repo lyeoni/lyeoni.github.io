@@ -1313,7 +1313,7 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .abbr abbr.badge-domestic {
   background-color: #e8f0ed;
-  border: 1px solid #91aaa4;
+  border: 0;
   box-shadow: none;
 }
 .publications ol.bibliography li .abbr abbr.badge-domestic a {
@@ -1341,15 +1341,17 @@ footer.sticky-bottom {
 .publications ol.bibliography li .periodical {
   color: var(--global-text-color);
   font-size: 0.95rem;
-  font-weight: 500;
+  font-style: italic;
+  font-weight: 600;
   line-height: 1.45;
 }
 .publications ol.bibliography li .periodical em {
-  font-weight: 600;
+  font-style: inherit;
+  font-weight: inherit;
 }
 .publications ol.bibliography li .publication-year {
   color: var(--global-theme-color);
-  font-style: normal;
+  font-style: inherit;
   font-weight: 700;
 }
 .publications ol.bibliography li .links a.btn {
@@ -1360,12 +1362,6 @@ footer.sticky-bottom {
   color: var(--global-hover-color);
   border-color: var(--global-hover-color);
 }
-.publications ol.bibliography li .pub-note {
-  font-size: 0.95em;
-  font-style: normal;
-  font-weight: 400;
-  color: var(--global-text-color-light) !important;
-}
 
 html[data-theme=dark] #domestic .publication-section-title {
   color: #c8c9cc;
@@ -1375,7 +1371,6 @@ html[data-theme=dark] .publications ol.bibliography li .author {
 }
 html[data-theme=dark] .publications ol.bibliography li .abbr abbr.badge-domestic {
   background-color: #334844;
-  border-color: #58756f;
 }
 html[data-theme=dark] .publications ol.bibliography li .abbr abbr.badge-domestic a {
   color: #e1eeeb;
