@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper “<a href="https://arxiv.org/abs/2306.02579">Cross-Lingual Transfer Learning for Phrase Break Prediction with Multilingual Language Model</a>” got accepted<br> for <a href="https://www.interspeech2023.org/">INTERSPEECH2023</a> to be held at Dublin !! :ireland:
+Our paper “<a href="https://arxiv.org/abs/2306.02579">Cross-Lingual Transfer Learning for Phrase Break Prediction with Multilingual Language Model</a>” got accepted<br> for <strong><a href="https://www.interspeech2023.org/">INTERSPEECH2023</a></strong> to be held at Dublin !! :ireland:
