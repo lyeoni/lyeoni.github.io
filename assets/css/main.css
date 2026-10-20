@@ -1350,7 +1350,6 @@ footer.sticky-bottom {
   font-weight: inherit;
 }
 .publications ol.bibliography li .publication-year {
-  color: var(--global-theme-color);
   font-style: inherit;
   font-weight: 700;
 }
