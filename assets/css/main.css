@@ -1269,6 +1269,13 @@ footer.sticky-bottom {
   font-weight: 700;
 }
 
+.news strong > a {
+  color: inherit;
+}
+.news strong > a:hover, .news strong > a:focus-visible {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
 .news table th {
   white-space: nowrap;
   width: 1%;
