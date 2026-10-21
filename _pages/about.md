@@ -24,7 +24,7 @@ My work focuses on Multimodal AI and LLM Applications for speech and language sy
 
 My current research interests broadly fall into two areas:
 
-- **Multimodal AI:** Speech-language modeling, spoken language understanding, and multimodal interaction across speech, language, and context.
-- **LLM Applications:** Synthetic data generation, model-based evaluation, tool-augmented reasoning, and scalable AI applications for real-world products.
+- **Multimodal AI:** How can AI understand and interact across speech, language, and context?
+- **LLM Applications:** How can LLMs improve data generation, evaluation, tool use, and real-world AI systems?
 
 If you are interested in collaboration or would like to get in touch, please feel free to [contact me](/contacts/).
