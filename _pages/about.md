@@ -18,9 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Senior AI Research Scientist and Tech Lead in the Voice team at NAVER Cloud. I build speech and language technologies for real-world AI products, with publications at [EMNLP](https://2026.emnlp.org/) and [INTERSPEECH](https://interspeech2026.org/).
+I am a Senior AI Research Scientist and Tech Lead in the Voice team at NAVER Cloud. I build speech and language technologies for real-world AI products, with publications at top-tier AI/ML conferences, including [EMNLP](https://2026.emnlp.org/) and [INTERSPEECH](https://interspeech2026.org/).
 
-My work spans pronunciation modeling, phrase break prediction, synthetic data, and model evaluation. I connect research and engineering through technical leadership, mentoring, and production deployment across [NAVER](https://www.naver.com/)’s services. Since April 2026, I have also served as an AI Technical Mentor at [AI·SW Maestro](https://www.swmaestro.ai/sw/main/main.do), guiding several AI projects.
+My work focuses on Multimodal AI and LLM Applications for speech and language systems, spanning robust understanding, evaluation, and real-world deployment. I connect research and engineering through technical leadership at [NAVER](https://www.naver.com/) and have mentored several AI projects at [AI·SW Maestro](https://www.swmaestro.ai/sw/main/main.do) since April 2026.
 
 My current research interests broadly fall into two areas:
 
