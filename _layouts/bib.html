@@ -133,6 +133,9 @@
         <div class="periodical">
           {{ periodical | strip }}{% if entry.note %} <span class="pub-note">({{ entry.note }})</span>{% endif %}
         </div>
+        {%- if entry.award != blank %}
+          <strong class="publication-award">{{ entry.award | escape }}</strong>
+        {%- endif %}
 
           <!-- Links/Buttons -->
           <div class="links">

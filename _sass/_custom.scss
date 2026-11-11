@@ -353,6 +353,16 @@ footer.sticky-bottom {
         font-weight: 700;
       }
 
+      .publication-award {
+        display: inline-block;
+        margin-top: 0.3rem;
+        padding: 0.12rem 0.45rem;
+        border: 1px solid currentColor;
+        border-radius: 0.3rem;
+        color: var(--global-theme-color);
+        font-size: 0.78rem;
+      }
+
       .links {
         a.btn {
           color: var(--global-theme-color);
